@@ -97,37 +97,37 @@ set background=dark
 
 "プラグイン設定
 "dein Scripts-----------------------------
-if &compatible
-  set nocompatible               " Be iMproved
-endif
+"if &compatible
+"  set nocompatible               " Be iMproved
+"endif
 
 " Required:
-set runtimepath+=/Users/Yoshino/.vim/bundle/repos/github.com/Shougo/dein.vim
-set runtimepath+=/Users/Yoshino/.vim/bundle/nerdtree
-set runtimepath+=/Users/Yoshino/.vim/bundle/lightline.vim
-"set runtimepath+=/Users/Yoshino/.vim/bundle
-
+"set runtimepath+=/Users/Yoshino/.vim/bundle/repos/github.com/Shougo/dein.vim
+"set runtimepath+=/Users/Yoshino/.vim/bundle/nerdtree
+"set runtimepath+=/Users/Yoshino/.vim/bundle/lightline.vim
+""set runtimepath+=/Users/Yoshino/.vim/bundle
+"
 " Required:
-call dein#begin('/Users/Yoshino/.vim/bundle')
+"call dein#begin('/Users/Yoshino/.vim/bundle')
 
 " Let dein manage dein
 " Required:
-call dein#add('Shougo/dein.vim')
-call dein#add('lightline.vim')
+"call dein#add('Shougo/dein.vim')
+"call dein#add('lightline.vim')
 " Add or remove your plugins here:
-call dein#add('Shou/neosnippet.vim')
-call dein#add('Shougo/neosnippet-snippets')
+"call dein#add('Shou/neosnippet.vim')
+"call dein#add('Shougo/neosnippet-snippets')
 "ツリーの表示
-call dein#add('scrooloose/nerdtree')
+"call dein#add('scrooloose/nerdtree')
 " You can specify revision/branch/tag.
-call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
+"call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
 
 " Required:
-call dein#end()
+"call dein#end()
 
 " Required:
-filetype plugin indent on
-syntax enable
+"filetype plugin indent on
+"syntax enable
 
 " If you want to install not installed plugins on startup.
 "if dein#check_install()
@@ -137,5 +137,5 @@ syntax enable
 "End dein Scripts-------------------------
 "プラグイン設定終わり
 "ツリーのをデフォルトで表示
-autocmd VimEnter * execute 'NERDTree'    
+"autocmd VimEnter * execute 'NERDTree'    
 " <F5>でpythonj実行
